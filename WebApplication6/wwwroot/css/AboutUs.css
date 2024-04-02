@@ -1,0 +1,55 @@
+﻿/*About Us css*/
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #f1f1f1;
+    display: flex; /*used for children alignmnet*/
+    flex-direction:column;/*stack child elements verticallly*/
+}
+
+.container {
+    flex: 1; /*expand to fill the space*/
+    padding: 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*cented text in [aragraphs*/
+.center-text{
+    text-align:center;
+}
+
+.center-heading{
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+﻿/*Nav bar link hover effect*/
+.navbar-nav .nav-item .nav-link{
+    transition:color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-nav .nav-item .navlink:hover{
+    color:#ff5722; /*Change the hover colour*/
+    text-shadow: 0 0 10px rgba(255, 87, 34, 0.7); /* glow effect*/
+}
